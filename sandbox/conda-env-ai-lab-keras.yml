@@ -1,0 +1,17 @@
+name: ai-lab-ml-sandbox-keras
+dependencies:
+- pip
+- python=3.7
+- pip:
+  - azureml-contrib-dataset
+  - azureml-core
+  - azureml-dataprep[fuse,pandas]
+  - azureml-dataprep-native
+  - keras
+  - pandas
+  - pillow
+  - scikit-image
+  - scikit-learn
+  - sklearn
+  - tensorflow
+  - tqdm

@@ -1,0 +1,15 @@
+name: ai-lab-ml-sandbox-sklearn
+dependencies:
+- pip
+- python=3.7
+- pip:
+  - azureml-contrib-dataset
+  - azureml-core
+  - azureml-dataprep[fuse,pandas]
+  - azureml-dataprep-native
+  - numpy
+  - pandas
+  - scikit-image
+  - scikit-learn
+  - sklearn
+  - tqdm
